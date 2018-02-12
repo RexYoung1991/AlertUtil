@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        print("好了，内存泄漏的问题已经修复了,可以提交了")
     }
 
 
