@@ -14,4 +14,8 @@ class MeVC: UIViewController {
         print("好了， 新版本的宇宙飞船已经开发完毕")
     }
     
+    override func viewDidLayoutSubviews() {
+        print("我想修改一个颜色")
+    }
+    
 }
