@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.view.backgroundColor = UIColor.red
+        view.backgroundColor = UIColor.gray
         
         print("好了，检查完毕了， 我已经修复了所有的bug了")
     }
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        print("好了，内存泄漏的问题已经修复了,可以提交了")
     }
 
 

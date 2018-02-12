@@ -15,6 +15,10 @@ class ShopCartViewController: UIViewController {
         view.backgroundColor = UIColor.green
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        print("我先出去一下现在有一个bug需要我修复")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
