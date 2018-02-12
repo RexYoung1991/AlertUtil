@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.red
         
+        print("好了，检查完毕了， 我已经修复了所有的bug了")
     }
 
     override func didReceiveMemoryWarning() {
