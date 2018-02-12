@@ -6,4 +6,12 @@
 //  Copyright © 2018年 liyang. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class MeVC: UIViewController {
+    
+    override func viewDidLoad() {
+        print("好了， 新版本的宇宙飞船已经开发完毕")
+    }
+    
+}
