@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.view.backgroundColor = UIColor.red
-        view.backgroundColor = UIColor.gray        
+        view.backgroundColor = UIColor.gray
+        
+        print("好了我已经修复了这个bug")
     }
 
     override func didReceiveMemoryWarning() {
