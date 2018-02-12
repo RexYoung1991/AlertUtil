@@ -12,6 +12,7 @@
 		CDFA0B39203144DB00E14863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFA0B37203144DB00E14863 /* Main.storyboard */; };
 		CDFA0B3B203144DB00E14863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFA0B3A203144DB00E14863 /* Assets.xcassets */; };
 		CDFA0B3E203144DB00E14863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFA0B3C203144DB00E14863 /* LaunchScreen.storyboard */; };
+		CDFA0B4620315B0900E14863 /* ShopCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA0B4520315B0900E14863 /* ShopCartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CDFA0B3A203144DB00E14863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFA0B3D203144DB00E14863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDFA0B3F203144DB00E14863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFA0B4520315B0900E14863 /* ShopCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CDFA0B33203144DB00E14863 /* AppDelegate.swift */,
 				CDFA0B35203144DB00E14863 /* ViewController.swift */,
+				CDFA0B4520315B0900E14863 /* ShopCartViewController.swift */,
 				CDFA0B37203144DB00E14863 /* Main.storyboard */,
 				CDFA0B3A203144DB00E14863 /* Assets.xcassets */,
 				CDFA0B3C203144DB00E14863 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFA0B4620315B0900E14863 /* ShopCartViewController.swift in Sources */,
 				CDFA0B36203144DB00E14863 /* ViewController.swift in Sources */,
 				CDFA0B34203144DB00E14863 /* AppDelegate.swift in Sources */,
 			);
